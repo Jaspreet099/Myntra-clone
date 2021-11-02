@@ -1,0 +1,111 @@
+
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    padding: 0.7em;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+    /* position: fixed; */
+}
+.header > ul{
+    padding-left: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 53px;
+    padding: 0;
+}
+.header-option{
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.header-option > li{
+    padding: 10px 17px 10px 28px; 
+  
+}
+
+.search{
+    padding: 1em 0 0 6em;
+    width: 30%;
+    /* display: flex; */
+   
+}
+#text-here{
+    padding: 1em 1em 1em 3em;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #f5f5f6;
+    outline: none;
+    background-color: #f5f5f6;
+    color: #696e79;  
+}
+.search > a{
+  width: 40px;
+  height: 45px;
+  outline: none;
+  border: none;
+  top: 2.3em;
+  position: absolute;
+  padding-left: 1em;
+  color:#696e79 ;
+  font-size: 2.5;
+}
+#text-here:focus{
+    background-color: white;
+    outline: 2px solid #f5f5f6 ;
+}
+
+.user-section{
+    padding: 1em 1em 0 8em;
+    /* float: right; */
+    /* display: grid; */
+    
+}
+.user-section > i{
+    font-size: 16px;
+    padding-left: 8px;
+}
+.user-section > span{
+    position: relative;
+    top: 1.6em;
+    left: -1.8em;
+    
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: 2.5em;
+    /* width: min-content; */
+}
+.banner > img{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 95%;
+    padding-top: 1em;
+}
+.full-width{
+    width: 100% !important;
+}
+.deals, .budget-buy, .best-deals{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 0 20px;
+}
+.deals > img, .budget-buy > img , .best-deals > img{
+    width: 278px;
+    height: 325px;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
